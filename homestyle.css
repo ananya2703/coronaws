@@ -1,0 +1,134 @@
+
+#navbar{
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+}
+
+#navbar ul {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+#navbar ul li{
+  list-style:none;
+}
+
+#navbar ul li a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  font-size: 0.875em;
+  text-decoration: none;
+  padding: 1em;
+  white-space: nowrap;
+  letter-spacing: 1px;
+}
+
+#navbar ul li a:hover{
+  border-bottom: 3px solid white;
+}
+
+.header{ 
+  background:url(Coronavirus-1.jpg) ;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 650px;
+  font-weight:bold;
+  text-align: center;
+  
+}
+
+.title{
+  color:white;
+  font-family:Algerian;
+  padding:2em;
+  text-align: center;
+  font-size:3rem;
+  margin-top:260px;
+}
+
+  
+.info1{
+  margin-top:20px;
+  background: url(bg18.jpg);
+  position:relative;
+  background-size:cover;
+  background-repeat: no-repeat;
+  font-weight:bold;
+  text-align: center;
+  color:#fff;
+  padding-left:10%;
+  padding-right:10%;
+  font-family:lucida calligraphy;
+  margin-bottom:20px;
+}
+  
+.info2{
+  background: url(bg16.jpg);
+  position:relative;
+  background-size:cover;
+  background-repeat: no-repeat;
+  font-weight:bold;
+  text-align: center;
+  color:#F0F4C3;
+  padding-left:10%;
+  padding-right:10%;
+  font-family:lucida calligraphy;
+  margin-bottom:20px;
+}
+  
+.border1{
+  border-style:double;
+}
+.border2{
+  border-style:double;
+}
+ 
+.prevention{
+  width:35%;
+  height:100%;
+  float:left;
+  position:relative;
+  font-family:Pristina;
+  justify-content:spacke-evenly;
+  background:url(bg19.jpg);
+  background-size:cover;
+  height:2510px;
+}
+  
+.treatment{
+  font-family:Comic Sans MS;
+  position:relative;
+  background: url(treatment.jpg);
+  background-size:cover;
+  background-size:cover;
+  float:right;
+  width:64%;
+  margin-bottom:10px;
+}
+  
+.vaccine{
+  font-family:Bradley Hand ITC;
+  position:relative;
+  background: url(vaccine.png);
+  background-size:cover;
+  float:right;
+  width:64%;
+  color:black;
+  margin-bottom:10px;
+}
+  
+.mutations{
+  background:url(bg13.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  color:black;
+  float:right;
+  width:64%;
+  font-family:Goudy Old Style;
+  margin-bottom:10px;
+}
+  

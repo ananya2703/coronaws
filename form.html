@@ -1,0 +1,118 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./formstyle.css">
+  </head>
+
+  <body>
+
+    <div id="navbar">
+      <ul>
+        <li> <a href="hometab.html"> HOME  </a> </li>
+        <li> <a href="timeline.html"> TIMELINE  </a> </li>  
+        <li> <a href="form.html"> CORONA-TESTING </a> </li>  
+      </ul> 
+    </div>
+      
+
+    <div class="all">
+    <br> <br> <br>
+    <div class="regform">
+      <h1> INFORMATION FORM </h1>
+    </div>
+  
+    <div class="main">
+      <form id="testForm">
+      <div id="name">
+        <br> 
+        <h2 class="name"> Name </h2>
+        <input id="firstname" type="text" required name="first_name"> 
+        <label id="firstnamelabel"> First name </label>
+        <input id="lastname" type="text" required name="last_name"> 
+        <label id="lastnamelabel"> Last name </label>
+      </div>
+      
+      <h2 class="name"> Profession </h2>
+      <input id="profession" type="text" name="profession" placeholder="Student/Doctor/Teacher">
+      
+      <h2 class="name"> Email </h2>
+      <input id="email" type="text" required name="email">
+      
+      <h2 class="name"> Date of Birth</h2>
+      <input id="dateofbirth" type="date" required name="dateofbirth">
+      
+      <h2 class="name"> Mobile Number</h2>
+      <input id="mobile" type="text" name="mobile">
+      
+      <h2 class="name"> State or Union Territory</h2>
+      <select id="state" name="state">
+        <option disabled="disabled" required selected="selected">
+        <option> Andaman and Nicobar Islands</option>
+        <option> Andhra Pradesh </option>
+        <option> Arunachal Pradesh </option>
+        <option> Assam </option>
+        <option> Bihar </option>
+        <option> Chandigarh </option>
+        <option> Chhattisgarh</option>
+        <option> Dadra and Nagar Haveli and Daman and Diu </option>
+        <option> Delhi </option>
+        <option> Goa </option>
+        <option> Gujrat </option>
+        <option> Haryana </option>
+        <option> Himachal Pradesh </option>
+        <option> Jammu and Kashmir </option>
+        <option> Jharkhand </option>
+        <option> Karnataka</option>
+        <option> Kerala</option>
+        <option> Ladakh </option>
+        <option> Lakshadweep </option>
+        <option> Madhya Pradesh </option>
+        <option> Maharashtra </option>
+        <option> Manipur </option>
+        <option> Meghalaya </option>
+        <option> Mizoram</option>
+        <option> Nagaland</option>
+        <option> Odisha</option>
+        <option> Puducherry </option>
+        <option> Punjab</option>
+        <option> Rajasthan</option>
+        <option> Sikkim</option>
+        <option> Tamil Nadu</option>
+        <option> Telangana</option>
+        <option> Tripura</option>
+        <option> Uttar Pradesh</option>
+        <option> Uttarakhand</option>
+        <option> West Bengal</option>
+      </select>
+      
+      <h2 id="travel"> Have you travelled to COVID affected country within last 1 month? </h2>  
+      <div id="travel">
+        <input type="radio" name="option" value="Yes"> Yes
+        <input type="radio" name="option" value="No" checked="checked"> No
+        
+      <h2 id="symptoms"> Symptoms </h2>
+        <div class="arrange">
+          <input type="checkbox" name="symptoms" value="Fever" id="cb1"> <label for="cb1"> Fever </label>
+          <input type="checkbox" name="symptoms" value="Dry Cough" id="cb2"> <label for="cb2"> Dry Cough </label>
+          <input type="checkbox" name="symptoms" value="Cold" id="cb3"> <label for="cb3"> Fever </label>
+          <input type="checkbox" name="symptoms" value="Breathing Issues" id="cb4"> <label for="cb4"> Breathing Issues </label>
+          <input type="checkbox" name="symptoms" value="Loss of Smell" id="cb5"> <label for="cb5"> Loss of Smell </label>
+          <input type="checkbox" name="symptoms" value="Loss of Taste" id="cb6"> <label for="cb6"> Loss of Taste </label>
+          <input type="checkbox" name="symptoms" value="Chest Pain" id="cb7"> <label for="cb7"> Chest Pain </label>
+          <input type="checkbox" name="symptoms" value="Body Ache" id="cb8"> <label for="cb8"> Body Ache </label>
+          <input type="checkbox" name="symptoms" value="Head Ache" id="cb9"> <label for="cb9"> head Ache </label>
+        </div>
+         
+      <h2 class="name"> Submit </h2>
+        <input id="submit" type="submit"> 
+
+        
+      </form>
+
+      <h3> <br> <br> <br> Testing centers near you are : </h3>
+    </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-app.js"></script>
+    <script src="./testingScript.js"> </script>
+  </body>
+</html>
